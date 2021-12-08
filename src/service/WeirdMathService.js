@@ -1,22 +1,18 @@
 class WeirdMathService {
   getWeirdBooleanNumberMath(boolean, number) {
-    // TODO: implement function in order to get the expected result in WeirdMathService.test.js
-    return null;
+    return Number(boolean) + number;
   }
 
   getWeirdStringBooleanMath(string, boolean) {
-    // TODO: implement function in order to get the expected result in WeirdMathService.test.js
-    return null;
+    return String(string) + boolean;
   }
 
   getWeirdStringBooleanMath2(string, boolean) {
-    // TODO: implement function in order to get the expected result in WeirdMathService.test.js
-    return null;
+    return Number(string) - Number(boolean);
   }
 
   getWeirdStringNumberMath(string, number) {
-    // TODO: implement function in order to get the expected result in WeirdMathService.test.js
-    return null;
+    return Number(string) - Number(number);
   }
 }
 
