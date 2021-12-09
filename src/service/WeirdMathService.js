@@ -1,18 +1,18 @@
 class WeirdMathService {
   getWeirdBooleanNumberMath(boolean, number) {
-    return Number(boolean) + number;
+    return boolean + number;
   }
 
   getWeirdStringBooleanMath(string, boolean) {
-    return String(string) + boolean;
+    return string + boolean;
   }
 
   getWeirdStringBooleanMath2(string, boolean) {
-    return Number(string) - Number(boolean);
+    return string - boolean;
   }
 
   getWeirdStringNumberMath(string, number) {
-    return Number(string) - Number(number);
+    return string - number;
   }
 }
 
